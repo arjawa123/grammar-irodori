@@ -1,0 +1,1728 @@
+[
+  {
+    "level": "A21",
+    "lesson": 1,
+    "grammar_id": "A21-L1-01",
+    "pattern": "丁寧体・普通体",
+    "meaning_id": "Bentuk Sopan dan Bentuk Biasa",
+    "usage": "Digunakan berdasarkan hubungan antara pembicara, situasi, dan kondisi percakapan.",
+    "example": [
+      {
+        "jp": "お久しぶりです。お元気ですか? / 久しぶり。元気?",
+        "romaji": "O-hisashiburi desu. O-genki desu ka? / Hisashiburi. Genki?",
+        "id": "Sudah lama tidak bertemu. Apa kabar? / Lama tidak jumpa. Sehat?"
+      }
+    ],
+    "notes": "Bentuk sopan ditandai dengan 'desu/masu', bentuk biasa tanpa 'desu/masu'.",
+    "used_vocab": [
+      "久しぶり"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 1,
+    "grammar_id": "A21-L1-02",
+    "pattern": "【期間】 になります",
+    "meaning_id": "Sudah (durasi waktu)",
+    "usage": "Menyatakan berlalunya waktu atau durasi keberadaan di suatu tempat.",
+    "example": [
+      {
+        "jp": "日本に来て1年になります。",
+        "romaji": "Nihon ni kite ichinen ni narimasu.",
+        "id": "Sudah setahun saya di Jepang."
+      }
+    ],
+    "notes": "Titik awal dapat ditambahkan dengan verba bentuk-te di depannya.",
+    "used_vocab": [
+      "来る",
+      "年",
+      "鳴る"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 1,
+    "grammar_id": "A21-L1-03",
+    "pattern": "【時点】(に)来ました",
+    "meaning_id": "Datang pada (titik waktu)",
+    "usage": "Mengungkapkan waktu terjadinya suatu peristiwa di masa lalu.",
+    "example": [
+      {
+        "jp": "去年の9月に来ました。",
+        "romaji": "Kyonen no kugatsu ni kimashita.",
+        "id": "Saya datang pada bulan September tahun lalu."
+      }
+    ],
+    "notes": "Kata seperti 'kyonen', 'sengetsu', 'senshuu' tidak menggunakan partikel 'ni'.",
+    "used_vocab": [
+      "去年",
+      "月",
+      "来る"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 1,
+    "grammar_id": "A21-L1-04",
+    "pattern": "V-ています ①",
+    "meaning_id": "Sedang (pekerjaan/status)",
+    "usage": "Menunjukkan kondisi saat ini, khususnya terkait pekerjaan atau status sekolah.",
+    "example": [
+      {
+        "jp": "働いています。介護の仕事をしています。",
+        "romaji": "Hataraite imasu. Kaigo no shigoto o shite imasu.",
+        "id": "Saya bekerja. Saya bekerja sebagai perawat lansia."
+      }
+    ],
+    "notes": "Dalam ragam lisan, bunyi 'i' sering dilesapkan menjadi '~temasu'.",
+    "used_vocab": [
+      "働く",
+      "いる",
+      "介護",
+      "仕事"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 2,
+    "grammar_id": "A21-L2-01",
+    "pattern": "V-ることです",
+    "meaning_id": "Adalah (melakukan) V",
+    "usage": "Digunakan untuk menyatakan hobi atau aktivitas utama.",
+    "example": [
+      {
+        "jp": "趣味は映画を見ることです。",
+        "romaji": "Shumi wa eiga o miru koto desu.",
+        "id": "Hobiku menonton film."
+      }
+    ],
+    "notes": "Kata 'koto' mengubah verba menjadi kata benda.",
+    "used_vocab": [
+      "趣味",
+      "映画"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 2,
+    "grammar_id": "A21-L2-02",
+    "pattern": "V-るのが好きです",
+    "meaning_id": "Suka (melakukan) V",
+    "usage": "Menyatakan kesukaan terhadap suatu aktivitas atau tindakan.",
+    "example": [
+      {
+        "jp": "ゲームをするのが好きです。",
+        "romaji": "Geemu o suru no ga suki desu.",
+        "id": "Saya suka main gim (game)."
+      }
+    ],
+    "notes": "Bentuk negatifnya adalah '~no wa suki janai desu'.",
+    "used_vocab": [
+      "ゲーム"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 2,
+    "grammar_id": "A21-L2-03",
+    "pattern": "【orang】と / 【tempat】で V-ます",
+    "meaning_id": "Bersama (orang) di (tempat) melakukan V",
+    "usage": "Menyatakan di mana dan dengan siapa suatu aktivitas dilakukan.",
+    "example": [
+      {
+        "jp": "休みの日は、たいてい友だちと体育館でバドミントンをします。",
+        "romaji": "Yasumi no hi wa, taitei tomodachi to taiikukan de badominton o shimasu.",
+        "id": "Pada hari libur, saya biasanya bermain bulu tangkis bersama teman di gedung olahraga."
+      }
+    ],
+    "notes": "Urutan penyebutan 'to' dan 'de' bersifat bebas.",
+    "used_vocab": [
+      "休み",
+      "たいてい",
+      "友だち",
+      "体育館",
+      "バドミントン"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 2,
+    "grammar_id": "A21-L2-04",
+    "pattern": "V1-て、V2",
+    "meaning_id": "Melakukan V1, lalu V2",
+    "usage": "Menyatakan dua atau lebih kegiatan yang dilakukan secara berurutan.",
+    "example": [
+      {
+        "jp": "毎週、夕方までバドミントンをして、そのあと、みんなでご飯を食べます。",
+        "romaji": "Maishuu, yuugata made badominton o shite, sono ato, minna de gohan o tabemasu.",
+        "id": "Setiap minggu kami main bulu tangkis sampai sore, setelah itu makan bersama."
+      }
+    ],
+    "notes": "Dapat digunakan untuk kebiasaan, peristiwa lampau, maupun rencana masa depan.",
+    "used_vocab": [
+      "毎週",
+      "夕方",
+      "バドミントン",
+      "みんな",
+      "ご飯"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 2,
+    "grammar_id": "A21-L2-05",
+    "pattern": "V-ています ②",
+    "meaning_id": "Sedang/Terbiasa (melakukan) V",
+    "usage": "Menyatakan kebiasaan atau aksi yang berulang kali dilakukan dalam jangka waktu tertentu.",
+    "example": [
+      {
+        "jp": "いけばなを習っています。",
+        "romaji": "Ikebana o naratte imasu.",
+        "id": "Saya sedang belajar merangkai bunga."
+      }
+    ],
+    "notes": "Menjelaskan kondisi atau kegiatan rutin saat ini.",
+    "used_vocab": [
+      "習う",
+      "いる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 2,
+    "grammar_id": "A21-L2-06",
+    "pattern": "Nができます",
+    "meaning_id": "Bisa / Mampu N",
+    "usage": "Menunjukkan kemampuan yang dimiliki seseorang (bahasa, olahraga, alat musik, dll).",
+    "example": [
+      {
+        "jp": "日本語、英語、フィリピノ語、スペイン語ができます。",
+        "romaji": "Nihongo, Eigo, Firipino-go, Supein-go ga dekimasu.",
+        "id": "Saya bisa bahasa Jepang, Inggris, Filipina, dan Spanyol."
+      }
+    ],
+    "notes": "Digunakan untuk menyatakan kemampuan personal.",
+    "used_vocab": [
+      "日本語",
+      "英語",
+      "できる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 3,
+    "grammar_id": "A21-L3-01",
+    "pattern": "Nに / ナA-に / イA-く なります",
+    "meaning_id": "Menjadi...",
+    "usage": "Menunjukkan perubahan kondisi, termasuk perubahan iklim atau situasi.",
+    "example": [
+      {
+        "jp": "春は桜の花が咲きます。暖かくなります。",
+        "romaji": "Haru wa sakura no hana ga sakimasu. Atatakaku narimasu.",
+        "id": "Pada musim semi, bunga sakura bermekaran. Udara menjadi hangat."
+      }
+    ],
+    "notes": "Nomina/Adjektiva-na menggunakan '~ni', Adjektiva-i mengubah 'i' menjadi 'ku'.",
+    "used_vocab": [
+      "春",
+      "桜",
+      "花",
+      "咲く",
+      "暖かい",
+      "鳴る"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 3,
+    "grammar_id": "A21-L3-02",
+    "pattern": "いちばん",
+    "meaning_id": "Paling",
+    "usage": "Menyatakan tingkat paling tinggi ketika digunakan bersama kata sifat.",
+    "example": [
+      {
+        "jp": "秋がいちばん好きです。",
+        "romaji": "Aki ga ichiban suki desu.",
+        "id": "Saya paling suka musim gugur."
+      }
+    ],
+    "notes": "Awalnya berarti 'urutan pertama'.",
+    "used_vocab": [
+      "秋",
+      "いちばん"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 3,
+    "grammar_id": "A21-L3-03",
+    "pattern": "イA-いのが 好きです / 苦手です",
+    "meaning_id": "Suka / Tidak tahan dengan (kondisi/iklim)",
+    "usage": "Menyatakan kesukaan atau ketidaksukaan terhadap kondisi tertentu seperti cuaca.",
+    "example": [
+      {
+        "jp": "私は暑いのが好きです。寒いのが苦手です。",
+        "romaji": "Watashi wa atsui no ga suki desu. Samui no ga nigate desu.",
+        "id": "Saya suka cuaca panas. Tidak tahan dengan cuaca dingin."
+      }
+    ],
+    "notes": "Partikel 'no' berfungsi menominalkan kata sifat.",
+    "used_vocab": [
+      "私",
+      "暑い",
+      "寒い"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 3,
+    "grammar_id": "A21-L3-04",
+    "pattern": "〜ですから",
+    "meaning_id": "Karena...",
+    "usage": "Menunjukkan alasan yang diletakkan di akhir kalimat.",
+    "example": [
+      {
+        "jp": "秋が好きです。もみじの景色がきれいですから。",
+        "romaji": "Aki ga suki desu. Momiji no keshiki ga kirei desu kara.",
+        "id": "Saya suka musim gugur, karena pemandangan momiji sangat indah."
+      }
+    ],
+    "notes": "Dapat digunakan setelah kata sifat maupun kata kerja.",
+    "used_vocab": [
+      "秋",
+      "もみじ",
+      "景色"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 3,
+    "grammar_id": "A21-L3-05",
+    "pattern": "S1 から、S2",
+    "meaning_id": "Karena S1, (maka) S2",
+    "usage": "Menghubungkan dua kalimat di mana kalimat pertama adalah alasan bagi kalimat kedua.",
+    "example": [
+      {
+        "jp": "暑いのが大好きですから、夏が好きです。",
+        "romaji": "Atsui no ga daisuki desu kara, natsu ga suki desu.",
+        "id": "Saya suka musim panas, karena sangat menyukai cuaca panas."
+      }
+    ],
+    "notes": "",
+    "used_vocab": [
+      "暑い",
+      "夏"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 3,
+    "grammar_id": "A21-L3-06",
+    "pattern": "N1 や N2",
+    "meaning_id": "N1 dan N2 (dan lain-lain)",
+    "usage": "Menggabungkan nomina untuk memberikan contoh (tidak menyebutkan semua).",
+    "example": [
+      {
+        "jp": "海や山で遊ぶのも楽しいです。",
+        "romaji": "Umi ya yama de asobu no mo tanoshii desu.",
+        "id": "Menyenangkan juga main di laut dan di gunung."
+      }
+    ],
+    "notes": "Sering ditambahkan 'nado' setelah N2.",
+    "used_vocab": [
+      "海",
+      "山",
+      "遊ぶ",
+      "楽しい"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 3,
+    "grammar_id": "A21-L3-07",
+    "pattern": "N1 とか (N2とか)",
+    "meaning_id": "Misalnya N1 (dan N2)",
+    "usage": "Menyatakan contoh dalam ragam lisan.",
+    "example": [
+      {
+        "jp": "秋は果物がおいしいですよね。ぶどうとか梨とか。",
+        "romaji": "Aki wa kudamono ga oishii desu yo ne. Budou toka nashi toka.",
+        "id": "Pada musim gugur buah-buahan memang enak, ya? Misalnya anggur, pir."
+      }
+    ],
+    "notes": "Lebih informal dibandingkan 'ya'.",
+    "used_vocab": [
+      "秋",
+      "果物",
+      "おいしい",
+      "ぶどう",
+      "梨"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 4,
+    "grammar_id": "A21-L4-01",
+    "pattern": "Sね",
+    "meaning_id": "...ya? / ...kan?",
+    "usage": "Digunakan untuk meminta perhatian atau menunjukkan simpati terhadap ucapan lawan bicara.",
+    "example": [
+      {
+        "jp": "今日はいい天気ですね。",
+        "romaji": "Kyou wa ii tenki desu ne.",
+        "id": "Hari ini cuacanya cerah, ya."
+      }
+    ],
+    "notes": "Sering digunakan sebagai pembuka percakapan mengenai cuaca.",
+    "used_vocab": [
+      "今日",
+      "天気"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 4,
+    "grammar_id": "A21-L4-02",
+    "pattern": "S (bentuk lampau)",
+    "meaning_id": "(Bentuk lampau)",
+    "usage": "Membicarakan cuaca atau kondisi di masa lampau.",
+    "example": [
+      {
+        "jp": "昨日はすごい雨でしたね。",
+        "romaji": "Kinou wa sugoi ame deshita ne.",
+        "id": "Kemarin hujan deras sekali, ya."
+      }
+    ],
+    "notes": "Kata sifat-i lampau menjadi '~katta', nomina/sifat-na menjadi '~deshita'.",
+    "used_vocab": [
+      "昨日",
+      "すごい！",
+      "すごい",
+      "雨"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 4,
+    "grammar_id": "A21-L4-03",
+    "pattern": "V-ています ③",
+    "meaning_id": "Sedang (cuaca)...",
+    "usage": "Digunakan untuk membicarakan kondisi cuaca yang sedang berlangsung saat ini.",
+    "example": [
+      {
+        "jp": "今も少し雨が降っています。",
+        "romaji": "Ima mo sukoshi ame ga futte imasu.",
+        "id": "Sekarang pun masih gerimis."
+      }
+    ],
+    "notes": "Misalnya: harete imasu (cerah), kumotte imasu (berawan).",
+    "used_vocab": [
+      "今",
+      "雨",
+      "降る",
+      "いる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 4,
+    "grammar_id": "A21-L4-04",
+    "pattern": "〜でしょう",
+    "meaning_id": "Sepertinya... / Mungkin...",
+    "usage": "Digunakan dalam prakiraan cuaca untuk menunjukkan perkiraan.",
+    "example": [
+      {
+        "jp": "明日は晴れるでしょう。",
+        "romaji": "Ashita wa hareru deshou.",
+        "id": "Besok cuaca cerah."
+      }
+    ],
+    "notes": "Biasanya digunakan dengan kata kerja bentuk kamus dalam konteks prakiraan cuaca.",
+    "used_vocab": [
+      "明日",
+      "晴れる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 5,
+    "grammar_id": "A21-L5-01",
+    "pattern": "Nで / ナA-で / イA-くて、〜",
+    "meaning_id": "..., dan...",
+    "usage": "Cara menggabungkan dua kalimat atau kata sifat.",
+    "example": [
+      {
+        "jp": "この町は、とてもにぎやかで、便利です。",
+        "romaji": "Kono machi wa, totemo nigiyaka de, benri desu.",
+        "id": "Kota ini sangat ramai dan praktis."
+      }
+    ],
+    "notes": "Nomina/Adjektiva-na menggunakan '~de', Adjektiva-i menggunakan '~kute'.",
+    "used_vocab": [
+      "町",
+      "とても"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 5,
+    "grammar_id": "A21-L5-02",
+    "pattern": "Nだ / ナA-だ / イA-い けど、〜",
+    "meaning_id": "..., tapi...",
+    "usage": "Menggabungkan dua kalimat yang berlawanan atau kontras.",
+    "example": [
+      {
+        "jp": "橘公園は、場所は不便だけど、きれいですよ。",
+        "romaji": "Tachibana kouen wa, basho wa fuben dakedo, kirei desu yo.",
+        "id": "Lokasi Taman Tachibana agak kurang praktis, tapi indah, lho."
+      }
+    ],
+    "notes": "Nomina/Adjektiva-na menggunakan '~dakedo', Adjektiva-i menggunakan '~i kedo'.",
+    "used_vocab": [
+      "公園",
+      "場所"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 5,
+    "grammar_id": "A21-L5-03",
+    "pattern": "V-ることが できます",
+    "meaning_id": "Bisa (melakukan) V",
+    "usage": "Menggambarkan sesuatu yang dapat dilakukan pada suatu situasi atau tempat tertentu.",
+    "example": [
+      {
+        "jp": "一年中、いろいろな花を見ることができます。",
+        "romaji": "Ichinenjuu, iroirona hana o miru koto ga dekimasu.",
+        "id": "Kita bisa melihat berbagai bunga sepanjang tahun."
+      }
+    ],
+    "notes": "Verba harus dalam bentuk kamus dan dibubuhi 'koto'.",
+    "used_vocab": [
+      "一年中",
+      "花",
+      "できる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 6,
+    "grammar_id": "A21-L6-01",
+    "pattern": "Nに行きたいんですが･･･",
+    "meaning_id": "Saya ingin pergi ke... (mohon bantuannya)",
+    "usage": "Menjelaskan situasi diri saat meminta bantuan atau menanyakan jalan.",
+    "example": [
+      {
+        "jp": "マルイチデパートに行きたいんですが･･･。",
+        "romaji": "Maruichi depaato ni ikitai n desu ga...",
+        "id": "Saya ingin pergi ke toserba Maruichi..."
+      }
+    ],
+    "notes": "Diucapkan dengan intonasi menurun di akhir kalimat.",
+    "used_vocab": []
+  },
+  {
+    "level": "A21",
+    "lesson": 6,
+    "grammar_id": "A21-L6-02",
+    "pattern": "V-て、〜",
+    "meaning_id": "..., lalu...",
+    "usage": "Menghubungkan instruksi atau langkah-langkah secara berurutan.",
+    "example": [
+      {
+        "jp": "この道をまっすぐ行って、2つ目の信号を左に曲がってください。",
+        "romaji": "Kono michi o massugu itte, futatsume no shingou o hidari ni magatte kudasai.",
+        "id": "Dari jalan ini lurus terus, lalu belok kiri di lampu lalu lintas kedua."
+      }
+    ],
+    "notes": "Sering digunakan dalam memberikan petunjuk arah.",
+    "used_vocab": [
+      "道",
+      "まっすぐ",
+      "目",
+      "信号",
+      "左",
+      "曲がる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 6,
+    "grammar_id": "A21-L6-03",
+    "pattern": "N1 じゃなくて、N2",
+    "meaning_id": "Bukan N1, tapi N2",
+    "usage": "Digunakan untuk mengoreksi pernyataan lawan bicara.",
+    "example": [
+      {
+        "jp": "1つ目じゃなくて、2つ目です。",
+        "romaji": "Hitotsume janakute, futatsume desu.",
+        "id": "Bukan yang pertama, tapi yang kedua."
+      }
+    ],
+    "notes": "Berasal dari bentuk '~janai' sebagai penyambung.",
+    "used_vocab": [
+      "目"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 7,
+    "grammar_id": "A21-L7-01",
+    "pattern": "Nはどうですか?",
+    "meaning_id": "Bagaimana kalau N?",
+    "usage": "Menyatakan usulan atau mengonfirmasi persetujuan lawan bicara (waktu/tempat).",
+    "example": [
+      {
+        "jp": "6時はどうですか?",
+        "romaji": "Rokuji wa dou desu ka?",
+        "id": "Bagaimana kalau pukul 6:00?"
+      }
+    ],
+    "notes": "",
+    "used_vocab": [
+      "どう？"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 7,
+    "grammar_id": "A21-L7-02",
+    "pattern": "Nでもいいですか?",
+    "meaning_id": "Apakah N juga boleh?",
+    "usage": "Menyatakan usulan alternatif sambil menanyakan kondisi lawan bicara.",
+    "example": [
+      {
+        "jp": "6時半でもいいですか?",
+        "romaji": "Rokujihan demo ii desu ka?",
+        "id": "Bagaimana kalau pukul 6:30?"
+      }
+    ],
+    "notes": "",
+    "used_vocab": [
+      "言う"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 7,
+    "grammar_id": "A21-L7-03",
+    "pattern": "Nで / V-て、〜",
+    "meaning_id": "Karena...",
+    "usage": "Menyatakan sebab atau alasan suatu kejadian.",
+    "example": [
+      {
+        "jp": "事故で電車が止まりました。",
+        "romaji": "Jiko de densha ga tomarimashita.",
+        "id": "Kereta berhenti karena kecelakaan."
+      }
+    ],
+    "notes": "Nomina menggunakan 'de', Verba menggunakan bentuk-te.",
+    "used_vocab": [
+      "事故",
+      "電車",
+      "止まる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 8,
+    "grammar_id": "A21-L8-01",
+    "pattern": "もう V-ました",
+    "meaning_id": "Sudah (melakukan) V",
+    "usage": "Menyatakan suatu kegiatan yang sudah selesai dikerjakan.",
+    "example": [
+      {
+        "jp": "新しいアウトレットモール、もう行きましたか?",
+        "romaji": "Atarashii autoretto mooru, mou ikimashita ka?",
+        "id": "Apakah Anda sudah pergi ke outlet mall yang baru itu?"
+      }
+    ],
+    "notes": "Digunakan ketika lawan bicara diharapkan sudah melakukan suatu hal yang dianggap sebagai suatu kewajaran.",
+    "used_vocab": [
+      "新しい",
+      "アウトレットモール",
+      "もう"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 8,
+    "grammar_id": "A21-L8-02",
+    "pattern": "V-たことがあります",
+    "meaning_id": "Pernah (melakukan) V",
+    "usage": "Ungkapan untuk menyatakan suatu pengalaman.",
+    "example": [
+      {
+        "jp": "プロレスを見たことがありますか?",
+        "romaji": "Puroresu o mita koto ga arimasu ka?",
+        "id": "Apakah Anda pernah menonton gulat profesional?"
+      }
+    ],
+    "notes": "Dibentuk dari verba bentuk-ta yang dibubuhi dengan '~ koto ga arimasu'.",
+    "used_vocab": [
+      "プロレス"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 8,
+    "grammar_id": "A21-L8-03",
+    "pattern": "V-に行きませんか?",
+    "meaning_id": "Maukah pergi untuk (melakukan) V?",
+    "usage": "Ungkapan untuk mengajak lawan bicara dengan menunjukkan tujuan kepergian.",
+    "example": [
+      {
+        "jp": "いっしょに食べに行きませんか?",
+        "romaji": "Issho ni tabe ni ikimasen ka?",
+        "id": "Maukah Anda pergi makan bersama?"
+      }
+    ],
+    "notes": "Verba bentuk-masu dihilangkan 'masu'-nya lalu ditambahkan partikel 'ni'.",
+    "used_vocab": []
+  },
+  {
+    "level": "A21",
+    "lesson": 8,
+    "grammar_id": "A21-L8-04",
+    "pattern": "Nの前に、~ / Nのあと(で)、~",
+    "meaning_id": "Sebelum N / Setelah N",
+    "usage": "Menjelaskan secara tegas urutan kegiatan.",
+    "example": [
+      {
+        "jp": "食事の前に、お金をおろしたいんですが･･･。",
+        "romaji": "Shokuji no mae ni, okane o oroshitai n desu ga...",
+        "id": "Saya ingin mengambil uang sebelum kita makan..."
+      }
+    ],
+    "notes": "'N no mae ni' berarti kegiatan setelahnya dilakukan lebih dulu daripada N. 'N no ato de' berarti dilakukan setelah menyelesaikan N.",
+    "used_vocab": [
+      "食事",
+      "前",
+      "お金",
+      "おろす"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 8,
+    "grammar_id": "A21-L8-05",
+    "pattern": "V-たいんですが･･･",
+    "meaning_id": "Saya ingin (melakukan) V...",
+    "usage": "Menyampaikan keinginan pembicara dan membuat lawan bicaranya melakukan sesuatu.",
+    "example": [
+      {
+        "jp": "ジョギングシューズを買いたいんですが･･･。",
+        "romaji": "Jogingu shuuzu o kaitai n desu ga...",
+        "id": "Saya ingin membeli sepatu joging..."
+      }
+    ],
+    "notes": "Mengharap lawan bicara bereaksi, misalnya dengan memberikan saran atau bantuan.",
+    "used_vocab": [
+      "ジョギング",
+      "シューズ"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 9,
+    "grammar_id": "A21-L9-01",
+    "pattern": "Nで <cara>",
+    "meaning_id": "Dengan / Lewat N",
+    "usage": "Menyatakan cara atau metode (sarana) yang digunakan untuk melakukan kegiatan.",
+    "example": [
+      {
+        "jp": "アニメで日本語を勉強しました。",
+        "romaji": "Anime de Nihongo o benkyou shimashita.",
+        "id": "Saya belajar bahasa Jepang dengan menonton anime."
+      }
+    ],
+    "notes": "Misalnya: hon de (lewat buku), net-de (lewat internet).",
+    "used_vocab": [
+      "アニメ",
+      "日本語",
+      "勉強"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 9,
+    "grammar_id": "A21-L9-02",
+    "pattern": "N1 は N2 が (sifat) です",
+    "meaning_id": "N1 (bagian) N2-nya (sifat)",
+    "usage": "Menjelaskan karakteristik spesifik dari suatu topik benda atau bahasa.",
+    "example": [
+      {
+        "jp": "日本語は文字が難しいです。",
+        "romaji": "Nihongo wa moji ga muzukashii desu.",
+        "id": "Bagian yang sulit dari bahasa Jepang adalah hurufnya."
+      }
+    ],
+    "notes": "N1 adalah topik utama, N2 adalah bagian spesifik yang dijelaskan.",
+    "used_vocab": [
+      "日本語",
+      "文字",
+      "難しい"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 9,
+    "grammar_id": "A21-L9-03",
+    "pattern": "N1は〜。N2は〜。",
+    "meaning_id": "N1..., (tapi) N2...",
+    "usage": "Membandingkan dua hal atau karakteristik yang kontras.",
+    "example": [
+      {
+        "jp": "日本語は、読むのは少し難しいです。でも、会話は得意です。",
+        "romaji": "Nihongo wa, yomu no wa sukoshi muzukashii desu. Demo, kaiwa wa tokui desu.",
+        "id": "Bagian yang agak sulit dari bahasa Jepang adalah membaca. Tetapi, saya terampil berbicara."
+      }
+    ],
+    "notes": "Partikel 'wa' digunakan untuk menekankan perbandingan.",
+    "used_vocab": [
+      "日本語",
+      "読む",
+      "難しい",
+      "会話"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 9,
+    "grammar_id": "A21-L9-04",
+    "pattern": "V-てもらえませんか?",
+    "meaning_id": "Apakah Anda bersedia (melakukan) V?",
+    "usage": "Digunakan untuk meminta bantuan atau jasa secara halus dan sopan.",
+    "example": [
+      {
+        "jp": "日本語をチェックしてもらえませんか?",
+        "romaji": "Nihongo o chekku shite moraemasen ka?",
+        "id": "Apakah Anda bersedia memeriksa bahasa Jepang saya?"
+      }
+    ],
+    "notes": "Lebih halus daripada bentuk 'V-te kudasai'.",
+    "used_vocab": [
+      "日本語"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 9,
+    "grammar_id": "A21-L9-05",
+    "pattern": "V-方",
+    "meaning_id": "Cara (melakukan) V",
+    "usage": "Menunjukkan metode atau cara untuk melakukan sesuatu.",
+    "example": [
+      {
+        "jp": "この書類の書き方がよくわかりません。",
+        "romaji": "Kono shorui no kakikata ga yoku wakarimasen.",
+        "id": "Saya tidak mengerti cara menulis dokumen ini."
+      }
+    ],
+    "notes": "Disambungkan pada verba bentuk-masu tanpa 'masu'.",
+    "used_vocab": [
+      "書類",
+      "わかる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 10,
+    "grammar_id": "A21-L10-01",
+    "pattern": "V-てみたいんですが･･･",
+    "meaning_id": "Saya ingin mencoba (melakukan) V",
+    "usage": "Menyampaikan keinginan untuk mencoba hal baru dan berkonsultasi dengan lawan bicara.",
+    "example": [
+      {
+        "jp": "合気道をやってみたいんですが･･･。",
+        "romaji": "Aikidou o yatte mitai n desu ga...",
+        "id": "Saya ingin mencoba berlatih Aikido."
+      }
+    ],
+    "notes": "Digunakan untuk hal yang belum pernah dicoba sebelumnya.",
+    "used_vocab": [
+      "合気道",
+      "やる",
+      "み"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 10,
+    "grammar_id": "A21-L10-02",
+    "pattern": "【Durasi】(ni) ~回",
+    "meaning_id": "~kali dalam (durasi)",
+    "usage": "Menyatakan frekuensi suatu kegiatan dalam jangka waktu tertentu.",
+    "example": [
+      {
+        "jp": "日本語クラスは週に1回です。",
+        "romaji": "Nihongo kurasu wa shuu ni ikkai desu.",
+        "id": "Kelas bahasa Jepang diadakan seminggu sekali."
+      }
+    ],
+    "notes": "Partikel 'ni' dapat dilesapkan.",
+    "used_vocab": [
+      "日本語",
+      "クラス",
+      "週"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 10,
+    "grammar_id": "A21-L10-03",
+    "pattern": "V-ましょうか?",
+    "meaning_id": "Bagaimana kalau saya (melakukan) V?",
+    "usage": "Digunakan untuk menawarkan bantuan kepada lawan bicara.",
+    "example": [
+      {
+        "jp": "教室のチラシを持って来ましょうか?",
+        "romaji": "Kyoushitsu no chirashi o motte kimashou ka?",
+        "id": "Apakah perlu saya ambilkan selebaran untuk informasi kelas?"
+      }
+    ],
+    "notes": "Menawarkan diri untuk melakukan sesuatu bagi orang lain.",
+    "used_vocab": [
+      "教室",
+      "チラシ",
+      "持つ",
+      "来る"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 10,
+    "grammar_id": "A21-L10-04",
+    "pattern": "〜はどういう意味ですか?",
+    "meaning_id": "Apa artinya...?",
+    "usage": "Digunakan untuk menanyakan makna atau arti dari suatu kata yang tidak dipahami.",
+    "example": [
+      {
+        "jp": "すみません。「ぼご」は、どういう意味ですか?",
+        "romaji": "Sumimasen. 'Bogo' wa, dou iu imi desu ka?",
+        "id": "Maaf, apa artinya 'bogo'?"
+      }
+    ],
+    "notes": "Dapat juga menggunakan '~ wa nan desu ka?'.",
+    "used_vocab": [
+      "すみません",
+      "どういう",
+      "意味"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 10,
+    "grammar_id": "A21-L10-05",
+    "pattern": "N/Na/I toki",
+    "meaning_id": "Saat / Ketika...",
+    "usage": "Menyatakan kapan hal yang disebutkan di belakang kalimat terjadi.",
+    "example": [
+      {
+        "jp": "高校のとき、少し日本語を勉強しました。",
+        "romaji": "Koukou no toki, sukoshi Nihongo o benkyou shimashita.",
+        "id": "Saya (pernah) sedikit belajar bahasa Jepang saat SMA."
+      }
+    ],
+    "notes": "Menghubungkan waktu/situasi dengan suatu peristiwa.",
+    "used_vocab": [
+      "高校",
+      "日本語",
+      "勉強"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 11,
+    "grammar_id": "A21-L11-01",
+    "pattern": "V-て行く / 来る",
+    "meaning_id": "(Melakukan) V lalu pergi/datang",
+    "usage": "Menunjukkan seseorang melakukan aksi V terlebih dahulu kemudian pergi/datang ke suatu tempat.",
+    "example": [
+      {
+        "jp": "肉と野菜は、私が買って行きますよ。",
+        "romaji": "Niku to yasai wa, watashi ga katte ikimasu yo.",
+        "id": "Saya akan membeli daging dan sayur, lalu membawanya ke sana."
+      }
+    ],
+    "notes": "Umum digunakan dalam pembagian tugas membawa barang.",
+    "used_vocab": [
+      "肉",
+      "野菜",
+      "私"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 11,
+    "grammar_id": "A21-L11-02",
+    "pattern": "N1 と N2 (と)、どっちがいいですか?",
+    "meaning_id": "Antara N1 dan N2, mana yang lebih baik/disukai?",
+    "usage": "Digunakan untuk menanyakan pilihan antara dua hal.",
+    "example": [
+      {
+        "jp": "チョコレートケーキとチーズケーキ、どっちがいいですか?",
+        "romaji": "Chokoreeto keeki to chiizu keeki, docchi ga ii desu ka?",
+        "id": "Manakah yang Anda sukai? Kue cokelat atau kue keju?"
+      }
+    ],
+    "notes": "Jika ada 3 pilihan atau lebih, gunakan 'dore'.",
+    "used_vocab": [
+      "チョコレート",
+      "ケーキ",
+      "チーズ",
+      "どっち"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 11,
+    "grammar_id": "A21-L11-03",
+    "pattern": "Nのほうがいいです",
+    "meaning_id": "Lebih suka / Lebih baik N",
+    "usage": "Menyatakan pilihan di antara dua buah opsi.",
+    "example": [
+      {
+        "jp": "塩のほうがいいです。",
+        "romaji": "Shio no hou ga ii desu.",
+        "id": "Saya lebih suka garam."
+      }
+    ],
+    "notes": "Dapat dilesapkan menjadi 'N ga ii desu'.",
+    "used_vocab": [
+      "塩"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 11,
+    "grammar_id": "A21-L11-04",
+    "pattern": "【kata tanya】でもいいです",
+    "meaning_id": "Apa saja / Mana saja boleh",
+    "usage": "Menyampaikan bahwa pembicara tidak memiliki preferensi atau keinginan khusus.",
+    "example": [
+      {
+        "jp": "何でもいいです。",
+        "romaji": "Nan demo ii desu.",
+        "id": "Apa pun boleh."
+      }
+    ],
+    "notes": "Misalnya: nan demo (apa saja), docchi demo (mana saja), itsu demo (kapan saja).",
+    "used_vocab": [
+      "何",
+      "言う"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 12,
+    "grammar_id": "A21-L12-01",
+    "pattern": "V-ることです",
+    "meaning_id": "Adalah (melakukan) V",
+    "usage": "Digunakan untuk menyatakan hobi atau aktivitas utama.",
+    "example": [
+      {
+        "jp": "趣味は映画を見ることです。",
+        "romaji": "Shumi wa eiga o miru koto desu.",
+        "id": "Hobiku menonton film."
+      }
+    ],
+    "notes": "'Koto' menominalkan verba bentuk kamus.",
+    "used_vocab": [
+      "趣味",
+      "映画"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 12,
+    "grammar_id": "A21-L12-02",
+    "pattern": "V-るのが好きです",
+    "meaning_id": "Suka (melakukan) V",
+    "usage": "Menyatakan kesukaan terhadap suatu aktivitas atau tindakan.",
+    "example": [
+      {
+        "jp": "ゲームをするのが好きです。",
+        "romaji": "Geemu o suru no ga suki desu.",
+        "id": "Saya suka main gim (game)."
+      }
+    ],
+    "notes": "'No' berfungsi menominalkan verba bentuk kamus.",
+    "used_vocab": [
+      "ゲーム"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 12,
+    "grammar_id": "A21-L12-03",
+    "pattern": "【人】と 【場所】で V-ます",
+    "meaning_id": "Bersama (orang) di (tempat) melakukan V",
+    "usage": "Menyatakan di mana dan dengan siapa suatu aktivitas dilakukan.",
+    "example": [
+      {
+        "jp": "たいてい友だちと体育館でバドミントンをします。",
+        "romaji": "Taitei tomodachi to taiikukan de badominton o shimasu.",
+        "id": "Biasanya bermain bulu tangkis bersama teman di gedung olahraga."
+      }
+    ],
+    "notes": "Urutan 'to' dan 'de' bersifat bebas.",
+    "used_vocab": [
+      "たいてい",
+      "友だち",
+      "体育館",
+      "バドミントン"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 12,
+    "grammar_id": "A21-L12-04",
+    "pattern": "V1-て、V2",
+    "meaning_id": "Melakukan V1, lalu V2",
+    "usage": "Menyatakan dua atau lebih kegiatan yang dilakukan secara berurutan.",
+    "example": [
+      {
+        "jp": "バドミントンをして、そのあと、みんなでご飯を食べます。",
+        "romaji": "Badominton o shite, sono ato, minna de gohan o tabemasu.",
+        "id": "Kami main bulu tangkis, setelah itu makan bersama."
+      }
+    ],
+    "notes": "Dapat digunakan untuk rutinitas, pengalaman lampau, atau rencana masa depan.",
+    "used_vocab": [
+      "バドミントン",
+      "みんな",
+      "ご飯"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 12,
+    "grammar_id": "A21-L12-05",
+    "pattern": "V-ています ②",
+    "meaning_id": "Sedang (kebiasaan)",
+    "usage": "Menyatakan kebiasaan atau aksi yang dilakukan berulang dalam jangka waktu tertentu.",
+    "example": [
+      {
+        "jp": "いけばなを習っています。",
+        "romaji": "Ikebana o naratte imasu.",
+        "id": "Saya sedang belajar merangkai bunga."
+      }
+    ],
+    "notes": "",
+    "used_vocab": [
+      "習う",
+      "いる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 12,
+    "grammar_id": "A21-L12-06",
+    "pattern": "Nができます",
+    "meaning_id": "Bisa / Mampu N",
+    "usage": "Menunjukkan kemampuan yang dimiliki seseorang (bahasa, olahraga, musik, dll).",
+    "example": [
+      {
+        "jp": "日本語、英語、フィリピノ語、スペイン語ができます。",
+        "romaji": "Nihongo, Eigo, Firipino-go, Supein-go ga dekimasu.",
+        "id": "Saya bisa bahasa Jepang, Inggris, Filipina, dan Spanyol."
+      }
+    ],
+    "notes": "",
+    "used_vocab": [
+      "日本語",
+      "英語",
+      "できる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 13,
+    "grammar_id": "A21-L13-01",
+    "pattern": "〜んですが･･･",
+    "meaning_id": "(Situasi masalah)...",
+    "usage": "Menjelaskan kondisi pembicara saat melaporkan masalah dan meminta bantuan/instruksi.",
+    "example": [
+      {
+        "jp": "会議室の電気がつかないんですが･･･。",
+        "romaji": "Kaigishitsu no denki ga tsukanai n desu ga...",
+        "id": "Lampu di ruang rapat tidak menyala."
+      }
+    ],
+    "notes": "Disambungkan dengan verba bentuk kamus, lampau, atau negatif.",
+    "used_vocab": [
+      "会議",
+      "電気",
+      "着く"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 13,
+    "grammar_id": "A21-L13-02",
+    "pattern": "V-そうです",
+    "meaning_id": "Kelihatannya akan (melakukan) V",
+    "usage": "Menyatakan perkiraan atau estimasi kemajuan suatu proses pekerjaan.",
+    "example": [
+      {
+        "jp": "あと10分ぐらいで終わりそうです。",
+        "romaji": "Ato jippun gurai de owari sou desu.",
+        "id": "Kelihatannya akan selesai sekitar 10 menit lagi."
+      }
+    ],
+    "notes": "Disambungkan pada verba bentuk-masu tanpa 'masu'.",
+    "used_vocab": [
+      "10",
+      "終わる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 13,
+    "grammar_id": "A21-L13-03",
+    "pattern": "V-たいとき、〜",
+    "meaning_id": "Saat ingin (melakukan) V, ...",
+    "usage": "Digunakan ketika meminta saran dari lawan bicara mengenai apa yang harus dilakukan.",
+    "example": [
+      {
+        "jp": "両面コピーしたいときは、どうすればいいですか?",
+        "romaji": "Ryoumen kopii shitai toki wa, dou sureba ii desu ka?",
+        "id": "Apa yang harus dilakukan saat ingin memfotokopi bolak-balik?"
+      }
+    ],
+    "notes": "Frasa 'dou sureba ii desu ka' berarti 'bagaimana sebaiknya'.",
+    "used_vocab": [
+      "両面",
+      "コピー",
+      "どう？"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 13,
+    "grammar_id": "A21-L13-04",
+    "pattern": "V-ると、〜",
+    "meaning_id": "Kalau (melakukan) V, maka...",
+    "usage": "Menyatakan hasil otomatis yang terjadi segera setelah suatu aksi (misalnya pada mesin).",
+    "example": [
+      {
+        "jp": "このスタートボタンを押すと、コピーが始まります。",
+        "romaji": "Kono sutaato botan o osu to, kopii ga hajimarimasu.",
+        "id": "Kalau Anda menekan tombol 'mulai' ini, maka mesin akan mulai membuat salinan."
+      }
+    ],
+    "notes": "Disambungkan dengan verba bentuk kamus.",
+    "used_vocab": [
+      "スタート",
+      "ボタン",
+      "押す",
+      "コピー",
+      "始まる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 13,
+    "grammar_id": "A21-L13-05",
+    "pattern": "はい (negatif) / いいえ (positif)",
+    "meaning_id": "Jawaban atas pertanyaan negatif",
+    "usage": "Menjawab pertanyaan negatif sesuai kenyataan (Hai jika benar, Iie jika salah).",
+    "example": [
+      {
+        "jp": "A:コピー機、使ったことないですか? B:はい、ないです。",
+        "romaji": "A: Kopiiki, tsukatta koto nai desu ka? B: Hai, nai desu.",
+        "id": "A: Apakah belum pernah pakai mesin fotokopi? B: Ya, belum pernah."
+      }
+    ],
+    "notes": "Berbeda dengan sistem bahasa Indonesia/Inggris.",
+    "used_vocab": [
+      "コピー",
+      "使う",
+      "いる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 14,
+    "grammar_id": "A21-L14-01",
+    "pattern": "N de / Na-de / I-kute / V-て (Sebab)",
+    "meaning_id": "Karena (sebab)...",
+    "usage": "Menyatakan penyebab atau alasan dari suatu kondisi yang terjadi.",
+    "example": [
+      {
+        "jp": "道が混んでいて、ぜんぜん動きません。",
+        "romaji": "Michi ga konde ite, zenzen ugokimasen.",
+        "id": "Lalu lintasnya padat dan sama sekali tidak bergerak."
+      }
+    ],
+    "notes": "Sering digunakan sebagai alasan saat meminta maaf.",
+    "used_vocab": [
+      "道",
+      "混む",
+      "いる",
+      "ぜんぜん",
+      "動く"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 14,
+    "grammar_id": "A21-L14-02",
+    "pattern": "S1。それで、S2",
+    "meaning_id": "..., oleh karena itu...",
+    "usage": "Konjungsi untuk menghubungkan sebab/alasan di kalimat pertama dengan akibat di kalimat kedua.",
+    "example": [
+      {
+        "jp": "これから病院に行きます。それで、少し遅刻します。",
+        "romaji": "Kore kara byouin ni ikimasu. Sorede, sukoshi chikoku shimasu.",
+        "id": "Saya akan ke rumah sakit sekarang. Karena itu, saya akan sedikit terlambat."
+      }
+    ],
+    "notes": "",
+    "used_vocab": [
+      "これから",
+      "病院",
+      "それで",
+      "遅刻"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 14,
+    "grammar_id": "A21-L14-03",
+    "pattern": "V-てもいいですか?",
+    "meaning_id": "Bolehkah saya (melakukan) V?",
+    "usage": "Digunakan untuk meminta izin kepada lawan bicara.",
+    "example": [
+      {
+        "jp": "トイレに行って来てもいいですか?",
+        "romaji": "Toire ni itte kite mo ii desu ka?",
+        "id": "Bolehkah saya permisi ke toilet?"
+      }
+    ],
+    "notes": "Disambungkan dengan verba bentuk-te.",
+    "used_vocab": [
+      "トイレ",
+      "来る"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 14,
+    "grammar_id": "A21-L14-04",
+    "pattern": "V-てもいいでしょうか?",
+    "meaning_id": "Apakah diperbolehkan V?",
+    "usage": "Bentuk meminta izin yang lebih sopan daripada '~te mo ii desu ka'.",
+    "example": [
+      {
+        "jp": "明日の午後、早退してもいいでしょうか?",
+        "romaji": "Ashita no gogo, soutai shite mo ii deshou ka?",
+        "id": "Apakah besok saya boleh izin pulang lebih awal?"
+      }
+    ],
+    "notes": "",
+    "used_vocab": [
+      "明日",
+      "午後",
+      "早退"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 14,
+    "grammar_id": "A21-L14-05",
+    "pattern": "V-なければなりません",
+    "meaning_id": "Harus (melakukan) V",
+    "usage": "Menyatakan kewajiban atau keharusan yang tidak bisa dihindari.",
+    "example": [
+      {
+        "jp": "ちょっと、役所に行かなければならないんです。",
+        "romaji": "Chotto, yakusho ni ikanakereba naranai n desu.",
+        "id": "Saya harus ke Balai Kota."
+      }
+    ],
+    "notes": "Sering diikuti '~n desu' saat memberikan alasan.",
+    "used_vocab": [
+      "ちょっと",
+      "役所",
+      "鳴る"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 14,
+    "grammar_id": "A21-L14-06",
+    "pattern": "〜んです ①",
+    "meaning_id": "(Alasannya) adalah...",
+    "usage": "Digunakan untuk menjelaskan situasi atau memberikan alasan guna mendapatkan izin.",
+    "example": [
+      {
+        "jp": "東京から、国の友だちが来るんです。",
+        "romaji": "Toukyou kara, kuni no tomodachi ga kuru n desu.",
+        "id": "Teman (senegara) saya akan datang ke sini dari Tokyo."
+      }
+    ],
+    "notes": "Berfungsi untuk memberikan latar belakang penjelasan.",
+    "used_vocab": [
+      "友だち",
+      "来る"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 15,
+    "grammar_id": "A21-L15-01",
+    "pattern": "〜んです ②",
+    "meaning_id": "(Gejalanya) adalah...",
+    "usage": "Digunakan untuk menjelaskan gejala penyakit atau kondisi fisik kepada orang lain/dokter.",
+    "example": [
+      {
+        "jp": "昨日から38度の熱があって、のどがすごく痛いんです。",
+        "romaji": "Kinou kara sanjuuhachido no netsu ga atte, nodo ga sugoku itai n desu.",
+        "id": "Sejak kemarin saya demam sampai 38°C dan tenggorokan rasanya sakit sekali."
+      }
+    ],
+    "notes": "Untuk nomina dan sifat-na, bentuknya menjadi 'N nan desu'.",
+    "used_vocab": [
+      "昨日",
+      "熱",
+      "のど",
+      "すごい！",
+      "すごい",
+      "すごく",
+      "痛い"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 15,
+    "grammar_id": "A21-L15-02",
+    "pattern": "V-ないでください",
+    "meaning_id": "Tolong jangan (melakukan) V",
+    "usage": "Memberikan instruksi atau permintaan agar lawan bicara tidak melakukan sesuatu.",
+    "example": [
+      {
+        "jp": "しばらく、激しい運動をしないでください。",
+        "romaji": "Shibaraku, hageshii undou o shinaide kudasai.",
+        "id": "Untuk sementara waktu, jangan melakukan olahraga berat dulu."
+      }
+    ],
+    "notes": "Disambungkan pada verba bentuk-nai.",
+    "used_vocab": [
+      "しばらく",
+      "激しい",
+      "運動"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 15,
+    "grammar_id": "A21-L15-03",
+    "pattern": "V-る+N",
+    "meaning_id": "N untuk V",
+    "usage": "Menjelaskan khasiat atau fungsi dari suatu benda (misal: obat).",
+    "example": [
+      {
+        "jp": "こちらは、せきを抑える薬です。",
+        "romaji": "Kochira wa, seki o osaeru kusuri desu.",
+        "id": "Ini adalah obat untuk meredakan batuk."
+      }
+    ],
+    "notes": "Verba penjelas menggunakan bentuk kamus.",
+    "used_vocab": [
+      "こちら",
+      "席",
+      "せき",
+      "抑える",
+      "薬"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 15,
+    "grammar_id": "A21-L15-04",
+    "pattern": "V-る前に / V-たあと",
+    "meaning_id": "Sebelum V / Setelah V",
+    "usage": "Menunjukkan urutan waktu pelaksanaan dua aksi atau lebih.",
+    "example": [
+      {
+        "jp": "1日1回、寝る前に飲んでください。",
+        "romaji": "Ichinichi ikkai, neru mae ni nonde kudasai.",
+        "id": "Minumlah satu hari sekali sebelum tidur."
+      }
+    ],
+    "notes": "Pola 'mae ni' dengan bentuk kamus, 'ato' dengan bentuk-ta.",
+    "used_vocab": [
+      "前",
+      "飲む"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 15,
+    "grammar_id": "A21-L15-05",
+    "pattern": "〜とき",
+    "meaning_id": "Saat / Ketika...",
+    "usage": "Menunjukkan waktu atau kondisi tertentu untuk melakukan sesuatu (misal: minum obat).",
+    "example": [
+      {
+        "jp": "この薬は、痛くてがまんできないときに、飲んでください。",
+        "romaji": "Kono kusuri wa, itakute gaman dekinai toki ni, nonde kudasai.",
+        "id": "Minumlah obat ini ketika merasa sakit yang sangat amat."
+      }
+    ],
+    "notes": "Dapat disambung dengan nomina, adjektiva, maupun verba.",
+    "used_vocab": [
+      "薬",
+      "痛い",
+      "できる",
+      "飲む"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 16,
+    "grammar_id": "A21-L16-01",
+    "pattern": "V-るといいです(よ)",
+    "meaning_id": "Sebaiknya (melakukan) V",
+    "usage": "Digunakan untuk menyampaikan saran ringan guna menjaga kesehatan atau mengatasi masalah.",
+    "example": [
+      {
+        "jp": "静かな音楽を聞くといいですよ。",
+        "romaji": "Shizukana ongaku o kiku to ii desu yo.",
+        "id": "Sebaiknya mendengarkan musik yang tenang."
+      }
+    ],
+    "notes": "Disambungkan dengan verba bentuk kamus.",
+    "used_vocab": [
+      "音楽",
+      "聞く",
+      "言う"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 16,
+    "grammar_id": "A21-L16-02",
+    "pattern": "V-すぎます",
+    "meaning_id": "Terlalu banyak / Berlebihan V",
+    "usage": "Menunjukkan suatu aksi yang melebihi batas sewajarnya (biasanya bernada negatif).",
+    "example": [
+      {
+        "jp": "食べすぎて、お腹が痛いです。",
+        "romaji": "Tabesugite, onaka ga itai desu.",
+        "id": "Saya sakit perut karena terlalu banyak makan."
+      }
+    ],
+    "notes": "Verba bentuk-masu tanpa 'masu'.",
+    "used_vocab": [
+      "お腹",
+      "痛い"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 16,
+    "grammar_id": "A21-L16-03",
+    "pattern": "V1-たり、V2-たり (します)",
+    "meaning_id": "Melakukan V1, V2, dsb.",
+    "usage": "Digunakan untuk memberikan contoh beberapa aksi atau kegiatan yang dilakukan.",
+    "example": [
+      {
+        "jp": "ジョギングしたり、ときどき家でヨガをしたりしてます。",
+        "romaji": "Jogingu shitari, tokidoki ie de yoga o shitari shitemasu.",
+        "id": "Saya joging dan kadang-kadang melakukan yoga di rumah."
+      }
+    ],
+    "notes": "Mewakili berbagai kegiatan lainnya yang tidak disebutkan.",
+    "used_vocab": [
+      "ジョギング",
+      "ときどき",
+      "家",
+      "ヨガ"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 16,
+    "grammar_id": "A21-L16-04",
+    "pattern": "V-る/ない ようにしています",
+    "meaning_id": "Berusaha untuk (selalu) V",
+    "usage": "Menyatakan upaya atau usaha rutin yang dilakukan secara sengaja.",
+    "example": [
+      {
+        "jp": "できるだけ、野菜をたくさん食べるようにしています。",
+        "romaji": "Dekiru dake, yasai o takusan taberu you ni shite imasu.",
+        "id": "Saya berusaha sedapat mungkin untuk selalu banyak makan sayuran."
+      }
+    ],
+    "notes": "Menggunakan bentuk kamus (untuk dilakukan) atau bentuk-nai (untuk dihindari).",
+    "used_vocab": [
+      "できるだけ",
+      "野菜",
+      "たくさん",
+      "いる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 17,
+    "grammar_id": "A21-L17-01",
+    "pattern": "V-た+N",
+    "meaning_id": "N yang (telah) di-V",
+    "usage": "Menerangkan kata benda dengan aksi yang telah terjadi di masa lalu.",
+    "example": [
+      {
+        "jp": "ネパールから持って来た飾りです。",
+        "romaji": "Nepaaru kara motte kita kazari desu.",
+        "id": "(Ini adalah) pajangan yang saya bawa dari Nepal."
+      }
+    ],
+    "notes": "Bentuk biasa verba lampau positif (bentuk-ta) diletakkan sebelum nomina.",
+    "used_vocab": [
+      "ネパール",
+      "持つ",
+      "来る",
+      "飾り"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 17,
+    "grammar_id": "A21-L17-02",
+    "pattern": "【orang】に 【benda】をもらいます",
+    "meaning_id": "Menerima (benda) dari (orang)",
+    "usage": "Menyatakan tindakan menerima sesuatu dari orang lain.",
+    "example": [
+      {
+        "jp": "このマグカップ、誕生日に、友だちにもらったんです。",
+        "romaji": "Kono magukappu, tanjoubi ni, tomodachi ni moratta n desu.",
+        "id": "Mug ini saya dapatkan dari teman sewaktu ulang tahun."
+      }
+    ],
+    "notes": "Partikel 'ni' memiliki makna yang sama dengan 'kara'.",
+    "used_vocab": [
+      "マグカップ",
+      "友だち",
+      "もらう"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 17,
+    "grammar_id": "A21-L17-03",
+    "pattern": "【orang】が 【benda】をくれます",
+    "meaning_id": "(Orang) memberi (benda) kepada saya",
+    "usage": "Menyatakan tindakan orang lain memberikan sesuatu kepada pembicara (diri sendiri).",
+    "example": [
+      {
+        "jp": "父が誕生日にくれました。",
+        "romaji": "Chichi ga tanjoubi ni kuremashita.",
+        "id": "Ayah memberikannya pada hari ulang tahun saya."
+      }
+    ],
+    "notes": "Penerima ('watashi ni') biasanya dilesapkan karena sudah dipahami.",
+    "used_vocab": [
+      "父",
+      "くれる"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 18,
+    "grammar_id": "A21-L18-01",
+    "pattern": "もう V-ました",
+    "meaning_id": "Sudah (melakukan) V",
+    "usage": "Menyatakan suatu kegiatan yang sudah selesai dikerjakan.",
+    "example": [
+      {
+        "jp": "新しいアウトレットモール、もう行きましたか?",
+        "romaji": "Atarashii autoretto mooru, mou ikimashita ka?",
+        "id": "Apakah Anda sudah pergi ke outlet mall yang baru itu?"
+      }
+    ],
+    "notes": "Jawaban negatif menggunakan 'iie, mada desu'.",
+    "used_vocab": [
+      "新しい",
+      "アウトレットモール",
+      "もう"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 18,
+    "grammar_id": "A21-L18-02",
+    "pattern": "V-たことがあります",
+    "meaning_id": "Pernah (melakukan) V",
+    "usage": "Menyatakan suatu pengalaman yang pernah dialami di masa lalu.",
+    "example": [
+      {
+        "jp": "プロレスを見たことがありますか?",
+        "romaji": "Puroresu o mita koto ga arimasu ka?",
+        "id": "Apakah Anda pernah menonton gulat profesional?"
+      }
+    ],
+    "notes": "Menggunakan verba bentuk-ta (lampau).",
+    "used_vocab": [
+      "プロレス"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 18,
+    "grammar_id": "A21-L18-03",
+    "pattern": "V-に行きませんか?",
+    "meaning_id": "Maukah pergi untuk (melakukan) V?",
+    "usage": "Mengajak lawan bicara pergi ke suatu tempat dengan tujuan tertentu.",
+    "example": [
+      {
+        "jp": "いっしょに食べに行きませんか?",
+        "romaji": "Issho ni tabe ni ikimasen ka?",
+        "id": "Maukah Anda pergi makan bersama?"
+      }
+    ],
+    "notes": "Verba bentuk-masu dihilangkan 'masu'-nya lalu ditambah 'ni'.",
+    "used_vocab": []
+  },
+  {
+    "level": "A21",
+    "lesson": 18,
+    "grammar_id": "A21-L18-04",
+    "pattern": "Nの前に / Nのあと(で)",
+    "meaning_id": "Sebelum N / Setelah N",
+    "usage": "Menjelaskan secara tegas urutan dua kegiatan.",
+    "example": [
+      {
+        "jp": "買い物のあとで、ゲームコーナーに行きませんか?",
+        "romaji": "Kaimono no ato de, geemu koonaa ni ikimasen ka?",
+        "id": "Maukah pergi ke game corner setelah berbelanja?"
+      }
+    ],
+    "notes": "",
+    "used_vocab": [
+      "ゲーム",
+      "コーナー"
+    ]
+  },
+  {
+    "level": "A21",
+    "lesson": 18,
+    "grammar_id": "A21-L18-05",
+    "pattern": "V-たいんですが･･･",
+    "meaning_id": "Saya ingin (melakukan) V... (mohon responnya)",
+    "usage": "Menyampaikan keinginan pembicara dengan harapan lawan bicara bereaksi/merespon.",
+    "example": [
+      {
+        "jp": "ジョギングシューズを買いたいんですが･･･。",
+        "romaji": "Jogingu shuuzu o kaitai n desu ga...",
+        "id": "Saya ingin membeli sepatu joging..."
+      }
+    ],
+    "notes": "",
+    "used_vocab": [
+      "ジョギング",
+      "シューズ"
+    ]
+  }
+]

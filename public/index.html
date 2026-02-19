@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunpou Master AI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+JP:wght@400;700&family=Sawarabi+Mincho&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+
+    <header class="sticky-header">
+        <div class="stats-bar">
+            <div class="stat-item">🔥 <span id="streakCount">0</span> Streak</div>
+            <div class="stat-item">⭐ <span id="xpCount">0</span> XP</div>
+        </div>
+        
+        <div class="filter-area">
+            <div class="custom-select-wrapper">
+                <div class="custom-select" id="levelSelectTrigger">
+                    <span class="select-value">Pilih Level...</span>
+                    <i class="ph ph-caret-down"></i>
+                </div>
+                <div class="custom-options" id="levelOptions">
+                    <div class="option" data-value="A1">
+                        <span class="opt-tag">A1</span> Starter
+                    </div>
+                    <div class="option" data-value="A21">
+                        <span class="opt-tag">A2 1</span> Elementary
+                    </div>
+                     <div class="option" data-value="A22">
+                        <span class="opt-tag">A2 2</span> Elementary
+                    </div>
+                </div>
+            </div>
+
+            <button id="btnFilterFav" class="btn-icon" title="Filter Favorit">
+                <i class="ph ph-heart"></i>
+            </button>
+        </div>
+    </header>
+
+    <main class="tree-container">
+        <div class="tree-line"></div>
+        
+        <div id="welcomeScreen" class="welcome-screen">
+            <div class="welcome-content">
+                <div class="welcome-icon">⛩️</div>
+                <h2>Irasshaimase!</h2>
+                <p>Selamat datang di <strong>Bunpou Master</strong>.</p>
+                <p>Silakan pilih <strong>Level & Bab</strong> di menu atas untuk mulai belajar.</p>
+                <div class="arrow-hint">☝️</div>
+            </div>
+        </div>
+        
+        <div id="loadingIndicator" style="display:none;">
+            <div class="spinner"></div>
+            <p>Memuat Data Pelajaran...</p>
+        </div>
+
+        <div id="treeList"></div>
+    </main>
+
+    <template id="contentTemplate">
+        <div class="content-body">
+            <div class="learn-section">
+                <div class="card-actions">
+                    <button class="action-btn btn-audio" title="Dengar"><i class="ph ph-speaker-high"></i></button>
+                    <button class="action-btn btn-fav" title="Simpan"><i class="ph ph-heart"></i></button>
+                </div>
+
+                <p class="meaning">...</p>
+                <div class="usage-box">...</div>
+                <div class="examples-list"></div>
+                <div class="note-area"></div>
+                
+                <div class="footer-action">
+                    <button class="btn btn-action btn-start-quiz">QUIZ GAME 🎮</button>
+                    <button class="btn btn-secondary btn-start-builder">AI BUILDER ✍️</button>
+                </div>
+            </div>
+
+            <div class="quiz-section" style="display: none;">
+                <h3 class="section-title">Susun Kalimat!</h3>
+                <p class="quiz-question">...</p>
+                <div class="drop-zone empty">Klik kata di bawah...</div>
+                <div class="word-bank"></div>
+                <div class="feedback-msg"></div>
+                <button class="btn btn-neutral btn-back-learn">KEMBALI</button>
+            </div>
+
+            <div class="builder-section" style="display: none;">
+                <h3 class="section-title">Buat Kalimat Sendiri!</h3>
+                <p style="font-size: 0.9rem; margin-bottom: 10px;">
+                    Pola: <strong class="target-pattern" style="color:var(--red-ink)">...</strong>
+                </p>
+                <textarea class="ai-input" placeholder="Tulis kalimatmu dalam Bahasa Jepang..."></textarea>
+                <button class="btn btn-action btn-submit-ai">CEK KALIMAT (AI) ✨</button>
+                <div class="ai-result" style="display: none;">
+                    <div class="ai-score-badge">...</div>
+                    <div class="ai-feedback-box">
+                        <p><strong>Koreksi:</strong> <span class="ai-correction">...</span></p>
+                        <p class="ai-explanation">...</p>
+                        <div class="ai-alts"><strong>Alternatif:</strong><ul class="ai-alt-list"></ul></div>
+                    </div>
+                </div>
+                <div class="builder-loading" style="display: none;">Sensei sedang memeriksa... 🤖</div>
+                <button class="btn btn-neutral btn-back-learn" style="margin-top: 15px;">KEMBALI</button>
+            </div>
+            
+            <div class="hanko-stamp">合格</div>
+        </div>
+    </template>
+    
+    <div class="floating-controls">
+        <button id="btnRomaji" class="btn-float">Aa</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
