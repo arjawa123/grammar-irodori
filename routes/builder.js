@@ -3,13 +3,22 @@ const router = express.Router();
 const Groq = require('groq-sdk');
 require('dotenv').config();
 
-const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+let groq;
+try {
+    groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
+} catch (e) {
+    console.warn("⚠️ Groq SDK could not initialize:", e.message);
+}
 
 router.post('/validate', async (req, res) => {
     const { words, userSentence } = req.body;
 
     if (!words || !userSentence) {
         return res.status(400).json({ error: "Data tidak lengkap" });
+    }
+
+    if (!groq) {
+        return res.status(503).json({ error: "AI service tidak tersedia. Periksa konfigurasi GROQ_API_KEY." });
     }
 
     try {
