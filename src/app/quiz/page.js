@@ -144,7 +144,7 @@ export default function QuizPage() {
         }
     }, [allMeanings]);
 
-    const handleAnswer = (isCorrect, grammarId) => {
+    const handleAnswer = useCallback((isCorrect, grammarId) => {
         setFeedback(isCorrect ? 'correct' : 'wrong');
         setTotalAnswered(prev => prev + 1);
         if (isCorrect) {
@@ -153,7 +153,7 @@ export default function QuizPage() {
         }
         recordQuiz(grammarId, isCorrect);
         if (isCorrect) markAsLearned(grammarId);
-    };
+    }, [recordQuiz, markAsLearned]);
 
     const nextQuestion = () => {
         const nextIdx = currentIndex + 1;
@@ -179,13 +179,13 @@ export default function QuizPage() {
     const currentGrammar = grammarPool[currentIndex];
 
     useEffect(() => {
-        if (quizType === 'scramble' && bankWords.length === 0 && userAnswer.length > 0 && currentGrammar) {
+        if (quizType === 'scramble' && bankWords.length === 0 && userAnswer.length > 0 && currentGrammar && !feedback) {
             const sentence = currentGrammar.example[0].jp;
             const ans = userAnswer.join('').replace(/\s+|　/g, '');
             const tgt = sentence.replace(/\s+|　/g, '');
             handleAnswer(ans === tgt, currentGrammar.grammar_id);
         }
-    }, [bankWords, userAnswer, quizType, currentGrammar]);
+    }, [bankWords, userAnswer, quizType, currentGrammar, handleAnswer, feedback]);
 
     // Setup phase
     if (phase === 'setup') {
@@ -285,7 +285,7 @@ export default function QuizPage() {
                 {quizType === 'scramble' && (
                     <div className="mt-3">
                         <p className="text-sm text-text-dim mb-2">Terjemahkan:</p>
-                        <p className="text-base text-text-bright font-medium mb-4">"{currentGrammar.example[0].id}"</p>
+                        <p className="text-base text-text-bright font-medium mb-4">&quot;{currentGrammar.example[0].id}&quot;</p>
                         <div className="min-h-[50px] border-2 border-dashed border-border rounded-xl p-3 flex flex-wrap gap-2 mb-3">
                             {userAnswer.length === 0 ? (
                                 <span className="text-sm text-text-dim">Klik kata...</span>
@@ -311,8 +311,8 @@ export default function QuizPage() {
                             {particleTokens.map((t, i) => (
                                 t === particleTarget ? (
                                     <span key={i} className={`inline-block px-3 py-0.5 mx-0.5 rounded-lg font-bold ${feedback === 'correct' ? 'bg-success/20 text-success' :
-                                            feedback === 'wrong' ? 'bg-danger/20 text-danger' :
-                                                'bg-primary/20 text-primary-light'
+                                        feedback === 'wrong' ? 'bg-danger/20 text-danger' :
+                                            'bg-primary/20 text-primary-light'
                                         }`}>
                                         {feedback ? particleTarget : '？'}
                                     </span>
@@ -330,7 +330,7 @@ export default function QuizPage() {
                                     }}
                                     disabled={!!feedback}
                                     className={`word-pill ${feedback && opt === particleTarget ? '!bg-success !border-success !text-white' :
-                                            feedback && mcSelected === opt && opt !== particleTarget ? '!bg-danger !border-danger !text-white' : ''
+                                        feedback && mcSelected === opt && opt !== particleTarget ? '!bg-danger !border-danger !text-white' : ''
                                         }`}
                                 >
                                     {opt}
@@ -356,9 +356,9 @@ export default function QuizPage() {
                                     }}
                                     disabled={!!feedback}
                                     className={`w-full text-left p-3 rounded-xl text-sm border transition-all ${feedback && opt === currentGrammar.meaning_id ? 'bg-success/20 border-success/50 text-success' :
-                                            feedback && mcSelected === opt ? 'bg-danger/20 border-danger/50 text-danger' :
-                                                !feedback ? 'bg-surface-light border-border hover:border-primary/30 text-text' :
-                                                    'bg-surface-light border-border text-text-dim'
+                                        feedback && mcSelected === opt ? 'bg-danger/20 border-danger/50 text-danger' :
+                                            !feedback ? 'bg-surface-light border-border hover:border-primary/30 text-text' :
+                                                'bg-surface-light border-border text-text-dim'
                                         }`}
                                 >
                                     {opt}

@@ -255,8 +255,8 @@ function LearnTab({ grammar, showRomaji, setShowRomaji, learned, markAsLearned, 
                     }
                 }}
                 className={`w-full py-3 rounded-xl font-medium text-sm transition-all ${learned
-                        ? 'bg-success/20 text-success border border-success/30 hover:bg-success/30'
-                        : 'bg-primary hover:bg-primary-dark text-white shadow-lg shadow-primary/25'
+                    ? 'bg-success/20 text-success border border-success/30 hover:bg-success/30'
+                    : 'bg-primary hover:bg-primary-dark text-white shadow-lg shadow-primary/25'
                     }`}
             >
                 {learned ? '✅ Sudah Dipelajari (Klik untuk batalkan)' : '✅ Tandai Sudah Dipelajari'}
@@ -339,22 +339,26 @@ function QuizTab({ grammar, recordQuiz, markAsLearned }) {
     };
 
     useEffect(() => {
-        if (quizType === 'scramble' && bankWords.length === 0 && userAnswer.length > 0) {
+        if (quizType === 'scramble' && bankWords.length === 0 && userAnswer.length > 0 && !feedback) {
             const ans = userAnswer.join('').replace(/\s+|　/g, '');
             const tgt = sentence.replace(/\s+|　/g, '');
             const correct = ans === tgt;
-            setFeedback(correct ? 'correct' : 'wrong');
-            recordQuiz(grammar.grammar_id, correct);
-            if (correct) {
-                markAsLearned(grammar.grammar_id);
-                triggerConfetti();
-                speak('Seikai!');
-                showToast('Seikai! Jawaban Benar! 🎉', 'success');
-            } else {
-                showToast('Coba lagi! 😅', 'error');
-            }
+
+            // Use setTimeout to avoid synchronous state update in effect warning
+            setTimeout(() => {
+                setFeedback(correct ? 'correct' : 'wrong');
+                recordQuiz(grammar.grammar_id, correct);
+                if (correct) {
+                    markAsLearned(grammar.grammar_id);
+                    triggerConfetti();
+                    speak('Seikai!');
+                    showToast('Seikai! Jawaban Benar! 🎉', 'success');
+                } else {
+                    showToast('Coba lagi! 😅', 'error');
+                }
+            }, 0);
         }
-    }, [bankWords, userAnswer, quizType, sentence, grammar.grammar_id, recordQuiz, markAsLearned]);
+    }, [bankWords, userAnswer, quizType, sentence, grammar.grammar_id, recordQuiz, markAsLearned, feedback]);
 
     const handleParticleSelect = (opt) => {
         if (feedback) return;
@@ -417,7 +421,7 @@ function QuizTab({ grammar, recordQuiz, markAsLearned }) {
                 <div className="bg-surface rounded-xl border border-border p-5">
                     <div className="text-center mb-4">
                         <span className="text-xs text-text-dim">Terjemahkan</span>
-                        <p className="text-base text-text-bright font-medium mt-1">"{grammar.example[0].id}"</p>
+                        <p className="text-base text-text-bright font-medium mt-1">&quot;{grammar.example[0].id}&quot;</p>
                     </div>
 
                     {/* Drop zone */}
@@ -449,8 +453,8 @@ function QuizTab({ grammar, recordQuiz, markAsLearned }) {
                             {particleTokens.map((t, i) => (
                                 t === particleTarget ? (
                                     <span key={i} className={`inline-block px-3 py-0.5 mx-0.5 rounded-lg font-bold ${feedback === 'correct' ? 'bg-success/20 text-success' :
-                                            feedback === 'wrong' ? 'bg-danger/20 text-danger' :
-                                                'bg-primary/20 text-primary-light'
+                                        feedback === 'wrong' ? 'bg-danger/20 text-danger' :
+                                            'bg-primary/20 text-primary-light'
                                         }`}>
                                         {feedback ? particleTarget : '？'}
                                     </span>
@@ -465,7 +469,7 @@ function QuizTab({ grammar, recordQuiz, markAsLearned }) {
                                 onClick={() => handleParticleSelect(opt)}
                                 disabled={!!feedback}
                                 className={`word-pill ${feedback && opt === particleTarget ? '!bg-success !border-success !text-white' :
-                                        feedback && mcSelected === opt && opt !== particleTarget ? '!bg-danger !border-danger !text-white' : ''
+                                    feedback && mcSelected === opt && opt !== particleTarget ? '!bg-danger !border-danger !text-white' : ''
                                     }`}
                             >
                                 {opt}
@@ -489,9 +493,9 @@ function QuizTab({ grammar, recordQuiz, markAsLearned }) {
                                 onClick={() => handleMCSelect(opt)}
                                 disabled={!!feedback}
                                 className={`w-full text-left p-3 rounded-xl text-sm font-medium transition-all border ${feedback && opt === grammar.meaning_id ? 'bg-success/20 border-success/50 text-success' :
-                                        feedback && mcSelected === opt && opt !== grammar.meaning_id ? 'bg-danger/20 border-danger/50 text-danger' :
-                                            !feedback ? 'bg-surface-light border-border hover:border-primary/30 text-text' :
-                                                'bg-surface-light border-border text-text-dim'
+                                    feedback && mcSelected === opt && opt !== grammar.meaning_id ? 'bg-danger/20 border-danger/50 text-danger' :
+                                        !feedback ? 'bg-surface-light border-border hover:border-primary/30 text-text' :
+                                            'bg-surface-light border-border text-text-dim'
                                     }`}
                             >
                                 {opt}
